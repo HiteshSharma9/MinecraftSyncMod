@@ -1,0 +1,16 @@
+[
+{
+  "modid": "ms",
+  "name": "Minecraft Sync",
+  "description": "A mod to sync Minecraft to cloud drive which can also be used by your friends who have access to it.",
+  "version": "1.0",
+  "mcversion": "1.12.2",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Hitesh"],
+  "credits": "For my Friends JD and Sam.",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
