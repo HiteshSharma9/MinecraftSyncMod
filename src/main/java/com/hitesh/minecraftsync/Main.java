@@ -9,6 +9,7 @@ import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import net.minecraftforge.fml.common.event.FMLServerAboutToStartEvent;
 
 @Mod(modid = Reference.MOD_ID, name = Reference.NAME, version = Reference.VERSION)
 public class Main {
@@ -16,21 +17,25 @@ public class Main {
     @Instance
     public static Main Instance;
 
-    /*@SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.COMMON_PROXY_CLASS)
+    @SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.COMMON_PROXY_CLASS)
     public static CommonProxy proxy;
 
     @EventHandler
-    public static void PreInit(FMLPreInitializationEvent){
+    public static void PreInit(FMLPreInitializationEvent a){
 
     }
 
     @EventHandler
-    public static void init(FMLInitializationEvent){
+    public static void init(FMLInitializationEvent b){
 
     }
 
     @EventHandler
-    public static void PostInit(FMLPostInitializationEvent){
+    public static void PostInit(FMLPostInitializationEvent c){
 
-    }*/
+    }
+    @EventHandler
+    public static void Check(FMLServerAboutToStartEvent e){
+
+    }
 }
